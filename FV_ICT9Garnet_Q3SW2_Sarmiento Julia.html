@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAIRYTALE LIBRARY</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style type="text/css">
+		.image{
+			background-image: url(PINK.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.title{
+			text-decoration: underline;
+			font-family: didot, serif;
+			font-size: 50px;
+			color: #D58A94;
+			text-align: center;
+		}
+		.table{
+			font-family: Times New Romans;
+			font-size: 20px;
+		}
+		.search{
+			color: white;
+			border-width: 3px;
+			border-radius: 10px;
+			border-color: #B38481;
+			background-color: #B38481;
+			font-family: Times New Roman;
+		}
+		.now{
+			color: white;
+			border-width: 5px;
+			border-radius: 10px;
+			border-color: #B38481;
+			background-color: #B38481;
+			font-family: Times New Roman;
+		}
+		.label{
+			font-family: didot, serif;
+			font-size: 30px;
+			color: #D58A94;
+			text-align: center;
+		}
+		.text{
+			color: #B8860B;
+			font-family: georgia, serif;
+		}
+	</style>
+</head>
+<body style="background-image: url(PINK.jpg); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+	<div class="container bg-light">
+		<form>
+			<b><label class="label">Search for the Author, Book Title, etc.</label></b>
+			<input type="text" class="form-control">
+			<b><label class="label">Filter Options:</label></b>
+			<select class="form-control">
+				<option>Titles A-Z</option>
+				<option>Titles Z-A</option>
+				<option>Published Latest</option>
+				<option>Published Earliest</option>
+			</select>
+		</form>
+		<br>
+		<form>
+			<input class="search" type="submit" name="" value="SEARCH">
+		</form>
+	<div class="container bg-white title">
+		<b><i>Fairytale Library</i></b>
+		<table class="table table-striped table-bordered table-hover table-dark">
+			<tr class="table-danger">
+				<td class="text">Book Cover</td>
+				<td class="text">Title</td>
+				<td class="text">Author</td>
+				<td class="text">Date Published/Released</td>
+				<td class="text">Publisher</td>
+				<td class="text">Action</td>
+			<tr class="table-danger">
+				<td>
+					<img class="img-thumbnail" src="CINDERELLA.webp" width="100%" height="100%">
+				</td>
+				<td class="text">Cinderella: A Night at the Ball</td>
+				<td class="text">Rico Green</td>
+				<td class="text">January 27 2015</td>
+				<td class="text">Disney Press</td>
+				<td>
+			<form>
+				<input class="now" type="submit" name="" value="DOWNLOAD NOW">
+			</form>
+			<br>
+			<form>
+				<input class="now" type="submit" name="" value="READ NOW">
+			</form>
+				</td>
+			</tr>
+			<tr class="table-warning">
+				<td>
+					<img class="img-thumbnail" src="MOTHER.webp" width="100%" height="100%">
+				</td>
+				<td class="text">Mother Knows Best</td>
+				<td class="text">Serena Valentino</td>
+				<td class="text">August 7 2018</td>
+				<td class="text">Disney Press</td>
+				<td>
+				<form>
+					<input class="now" type="submit" name="" value="DOWNLOAD NOW">
+				</form>
+				<br>
+				<form>
+					<input class="now" type="submit" name="" value="READ NOW">
+				</form>
+				</td>
+			</tr>
+			<tr class="table-danger">
+				<td>
+					<img class="img-thumbnail" src="PRINCESS.webp" width="100%" height="100%">
+				</td>
+				<td class="text">12 Days of Princess</td>
+				<td class="text">Holly P. Rice</td>
+				<td class="text">September 7 2021</td>
+				<td class="text">Disney Press</td>
+				<td>
+				<form>
+					<input class="now" type="submit" name="" value="DOWNLOAD NOW">
+				</form>
+				<br>
+				<form>
+					<input class="now" type="submit" name="" value="READ NOW">
+				</form>
+				</td>
+			</tr>
+			<tr class="table-warning">
+				<td>
+					<img class="img-thumbnail" src="MOANA.webp" width="100%" height="100%">
+				</td>
+				<td class="text">How Far You’ll Go</td>
+				<td class="text">Tim McCanna</td>
+				<td class="text">April 4 2023</td>
+				<td class="text">Disney Press</td>
+				<td>
+				<form>
+					<input class="now" type="submit" name="" value="DOWNLOAD NOW">
+				</form>
+				<br>
+				<form>
+					<input class="now" type="submit" name="" value="READ NOW">
+				</form>
+				</td>
+			</tr>
+			<tr class="table-danger">
+				<td>
+					<img class="img-thumbnail" src="BELLE.webp" width="100%" height="100%">
+				</td>
+				<td class="text">Beauty and the Beast: Belle’s Library</td>
+				<td class="text">Brittany Rubiano</td>
+				<td class="text">January 31 2017</td>
+				<td class="text">Disney Press</td>
+				<td>
+				<form>
+					<input class="now" type="submit" name="" value="DOWNLOAD NOW">
+				</form>
+				<br>
+				<form>
+					<input class="now" type="submit" name="" value="READ NOW">
+				</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
